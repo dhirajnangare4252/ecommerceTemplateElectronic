@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ------------------------header------------------- */
+.head-left span{
+    display:block;
+    text-align: center;
+}
+.head-left a{
+    color: white;
+    border-bottom: 1px;
+    font-weight: 600;
+}
+.head-right select{
+    border-radius: 0;
+}
+/* ----------------------navbar ------------------------------ */
+
+.nav-right .search-box input{
+    width: 210px;
+    border: 0;
+}
+.nav-right .search-box img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.nav-right .search-box{
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+/* --------------------------------------------------------------- */
+/* .category:hover{
+    background-color:darkgray;
+} */
+
+.camera:active{
+    background-color: lightsalmon;
+}
+.symbol{
+    font-size: 200px;
+}
